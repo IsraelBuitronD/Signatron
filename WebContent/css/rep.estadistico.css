@@ -1,0 +1,103 @@
+@CHARSET "ISO-8859-1";
+#wrapper {
+	height: 548px;
+	width: 960px;
+	
+}
+#headVehi {
+	background-color: #FFF;
+	height: 55px;
+	width: 960px;
+	border-bottom-width: 4px;
+	border-bottom-color: #CC0606;
+	border-bottom-style: solid;
+	
+}
+
+#data {
+	background-color: #FFF;
+	width:210px;
+	height:151px;
+	border-bottom-width: 4px;
+	border-bottom-color: #CC0606;
+	border-bottom-style: solid;
+	float:left;
+	margin-right: 15px;	
+	margin-bottom: 15px;	
+	padding: 5px;
+}
+#dataT {
+	background-color: #FFF;
+	width:445px;
+	height:151px;
+	border-bottom-width: 4px;
+	border-bottom-color: #CC0606;
+	border-bottom-style: solid;
+	float:left;
+	margin-right: 15px;	
+	margin-bottom: 15px;	
+	padding: 5px;
+}
+#center {
+	height: 440px;
+	width: 970px;
+	padding: 15px;
+}
+#titData {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	color: #999;
+	text-align: center;	
+}
+#titDataSub {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color: #999;
+	text-align: center;	
+}
+.Dato {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 48px;
+	font-weight: bold;
+	color: #666;
+	text-align: center;
+	height: 90px;
+	vertical-align:middle;
+	margin-left:auto;
+	margin-right:auto;
+	clear: none;
+	padding-top: 20px;
+}
+#DataTime {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+	color: #666;
+	text-align: center;
+	vertical-align:middle;
+	margin-left:auto;
+	margin-right:auto;
+	
+}
+.titData{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	color: #999;	
+}
+.remark {
+	color: #666;
+	font-size: 32px;
+	}
+.small{font-size: 14px;}
+.big{font-size: 46px;}
+.font-medio{font-size: 26px;}
+.text-center{text-align: center;}
+.izq{text-align:left;}
+.float-left{float:left;}
+.bg { background-color:#063}
+.bg-a { background-color:#436099}
+.center-vertical{ vertical-align:middle;}
+.margin-top20{margin-top:20px;}
+

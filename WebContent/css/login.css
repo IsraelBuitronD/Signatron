@@ -1,0 +1,29 @@
+
+.font-basic{
+	font-family:Helvetica;
+	font-size: 9px;
+	color: #333;
+}
+.font-basic2{
+	font-family:Helvetica;
+	font-size: 9px;
+	color: #333;
+	color: #ccc;
+}
+.font-alert{
+	font-family:Helvetica;
+	font-size: 12px;
+	font-weight: bold;
+	color: #900;
+}
+.boton{
+        font-size:11px;
+        font-family:Helvetica;
+        font-weight:bold;
+        color:white;
+        background:#990000;
+        border:0px;
+        width:90px;
+        height:26px;
+        cursor: pointer;
+       }

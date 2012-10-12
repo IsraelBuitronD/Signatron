@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="reportx" language="groovy" pageWidth="612" pageHeight="792" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<queryString>
+		<![CDATA[select * from posiciones]]>
+	</queryString>
+	<field name="id_posicion" class="java.lang.Long"/>
+	<field name="id_vehiculo" class="java.lang.Integer"/>
+	<field name="id_gps" class="java.lang.Integer"/>
+	<field name="fecha" class="java.sql.Timestamp"/>
+	<field name="latitud" class="java.math.BigDecimal"/>
+	<field name="longitud" class="java.math.BigDecimal"/>
+	<field name="calidad" class="java.lang.String"/>
+	<field name="id_motivo" class="java.lang.Integer"/>
+	<field name="sensor1" class="java.lang.Integer"/>
+	<field name="sensor2" class="java.lang.Integer"/>
+	<field name="sensor3" class="java.lang.Integer"/>
+	<field name="sensor4" class="java.lang.Integer"/>
+	<field name="sensor5" class="java.lang.Integer"/>
+	<field name="sensor6" class="java.lang.Integer"/>
+	<field name="fuel" class="java.math.BigDecimal"/>
+	<field name="orientacion" class="java.lang.Integer"/>
+	<field name="velocidad" class="java.math.BigDecimal"/>
+	<field name="reporte" class="java.lang.String"/>
+	<field name="display" class="java.lang.Integer"/>
+	<field name="alarma_status" class="java.lang.Integer"/>
+	<field name="alarma_fecha" class="java.sql.Timestamp"/>
+	<field name="id_user" class="java.lang.Integer"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="79" splitType="Stretch">
+			<staticText>
+				<reportElement x="10" y="0" width="549" height="30"/>
+				<textElement>
+					<font size="20"/>
+				</textElement>
+				<text><![CDATA[Mi pinche reporte no funciona]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="117" y="47" width="100" height="20"/>
+				<textElement/>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{latitud}]]></textFieldExpression>
+			</textField>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="35" splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="61" splitType="Stretch"/>
+	</columnHeader>
+	<detail>
+		<band height="125" splitType="Stretch"/>
+	</detail>
+	<columnFooter>
+		<band height="45" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>
